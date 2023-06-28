@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FlywayApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(FlywayApplication.class, args);
+		System.out.println("Data for github upload");
 	}
 
 }
